@@ -23,4 +23,10 @@ What is the big-O notation for f(n) = 7 log(n)³ + 15n² + 2n³ + 8?
 O(f(n)) = O(n³)
 
 Why => Because this is the biggest, most dominant term in this function when the sample size get arbitrarly large.
+We are not trying to get exact time, but only how does it grow.
+Practically speaking on a small dataset a "faster" algotrithm can be worst, here only the worst case on a large dataset is considered.
 
+### Examples
+nested for loops, for every single input we go through every single iput so O(n²)
+QuickSort -> O(n logn)
+Binary Search tree -> O(log n)
